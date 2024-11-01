@@ -1380,14 +1380,14 @@ void reshade::runtime::draw_gui()
 		}
 
 		const std::pair<std::string, void(runtime::*)()> overlay_callbacks[] = {
-			{ _("Home###home"), &runtime::draw_gui_home },
 #if RESHADE_ADDON
 			{ _("Add-ons###addons"), &runtime::draw_gui_addons },
 #endif
 			{ _("Settings###settings"), &runtime::draw_gui_settings },
 			{ _("Statistics###statistics"), &runtime::draw_gui_statistics },
 			{ _("Log###log"), &runtime::draw_gui_log },
-			{ _("About###about"), &runtime::draw_gui_about }
+			{ _("About###about"), &runtime::draw_gui_about },
+			{ _("Home###home"), &runtime::draw_gui_home }
 		};
 
 		const ImGuiID root_space_id = ImGui::GetID("ViewportDockspace");
