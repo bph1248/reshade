@@ -1,3 +1,7 @@
+This fork contains a small addition in that it disables the splash window. It also places the Home tab in last place.
+
+This branch is likely to be rebased as changes come in from upstream.
+
 ReShade
 =======
 
