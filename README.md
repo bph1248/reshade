@@ -1,3 +1,5 @@
+This branch disables the splash window and places the Home tab in last place.
+
 ReShade
 =======
 
